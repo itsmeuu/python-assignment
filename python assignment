@@ -1,0 +1,33 @@
+write a python program to calculate the length of a string
+)
+str = input( "Enter a string:")
+counter=0
+for s in str:
+    counter= counter+1
+print( "Length of the string is:", counter)
+Enter a string:bye bye 2022 welcome 2023
+Length of the string is: 25
+write a python program to calcute the square root.
+)
+number=float(input("Enter the number:"))
+sqrt= number** 0.5
+print("square root of the given number is:", sqrt)
+Enter the number:144
+square root of the given number is: 12.0
+write a python program to convert temperature in celsius to temperature in farenheit
+celsius = float(input("Enter temperature in celsius: "))
+fahrenheit = (celsius * 1.8) + 32
+print('%.2f celcius is: %0.2f fahrenheit' %(celsius, fahrenheit))
+Enter temperature in celsius: 56
+56.00 celcius is: 132.80 fahrenheit
+write a python program for a data type needed for given data .( 10,4.5,2+6j)
+num1= 10
+print(num1, 'is of type', type(num1))
+num2= 4.5
+print(num2, 'is of type', type(num2))
+num3= 2+6j
+print(num3,' is of type', type(num3))
+10 is of type <class 'int'>
+4.5 is of type <class 'float'>
+(2+6j)  is of type <class 'complex'>
+​
